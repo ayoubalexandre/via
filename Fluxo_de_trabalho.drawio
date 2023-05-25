@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T23:35:13.355Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="H1n4mRqx4Zhg3Iw1wQiT" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T23:45:18.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="iP3uZwkjIBS2e1z0F1Hi" version="21.3.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2261" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,8 +380,8 @@
         <mxCell id="gUWSGeCoAkIVPsZjQ3K5-56" value="&lt;h1&gt;Recursos computacionais&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-2" y="2690" width="350" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gUWSGeCoAkIVPsZjQ3K5-57" value="&lt;h1&gt;Automação de testes&lt;/h1&gt;&lt;p&gt;Uso de ferramentas de automação de testes para:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Testes funcionais&lt;/li&gt;&lt;li&gt;Testes não funcionais&lt;br&gt;&lt;/li&gt;&lt;li&gt;Testes de integração&lt;/li&gt;&lt;li&gt;Testes de aceitação&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5" y="2760" width="255" height="170" as="geometry" />
+        <mxCell id="gUWSGeCoAkIVPsZjQ3K5-57" value="&lt;h1&gt;Automação de testes&lt;/h1&gt;&lt;p&gt;Uso de ferramentas de automação de testes para:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Testes funcionais&lt;/li&gt;&lt;li&gt;Testes não funcionais&lt;br&gt;&lt;/li&gt;&lt;li&gt;Testes de integração&lt;/li&gt;&lt;li&gt;Testes de aceitação&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Uso de ferramentas para gestão de massa de dados;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5" y="2760" width="255" height="200" as="geometry" />
         </mxCell>
         <mxCell id="gUWSGeCoAkIVPsZjQ3K5-58" value="&lt;h1&gt;Versionamento de código&lt;/h1&gt;&lt;p&gt;Uso de ferramenta Git para versionamento de código;&lt;br&gt;Adoção de Feature Branches no desenvolvimento;&lt;br&gt;Adoção de revisão de código para cada entrega - Pull request;&lt;br&gt;Boas práticas para nomear branches;&lt;br&gt;Boas práticas para escrita de mensagem de commit;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="2760" width="320" height="150" as="geometry" />

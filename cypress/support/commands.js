@@ -27,13 +27,14 @@
 //Acesso à home page casas bahia
 Cypress.Commands.add('acessarSite', () => {
     cy.intercept('**', (req) => {
-        req.headers['user-agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36';
-        req.headers['Connection'] = 'keep-alive';
-        req.headers['sec-ch-ua'] = '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"';
-        req.headers['Origin'] = 'https://www.casasbahia.com.br'
-        req.headers['Referer'] = 'https://www.casasbahia.com.br/'
-
-      });
+      req.headers['user-agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36';
+      req.headers['Connection'] = 'keep-alive';
+      req.headers['sec-ch-ua'] = '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"';
+      req.headers['Sec-Fetch-Mode'] = "cors";
+      req.headers['Sec-Fetch-Site'] = "cross-site";
+      req.headers['Origin'] = 'https://www.casasbahia.com.br'
+      req.headers['Referer'] = 'https://www.casasbahia.com.br/'
+    }).as('intercept');
   
     cy.visit('https://www.casasbahia.com.br/');
   });
